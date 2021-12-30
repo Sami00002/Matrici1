@@ -9,7 +9,6 @@ namespace Matrici_1
             Console.Write("Dimensiunea matricei :");
             int nr = Int32.Parse(Console.ReadLine());
             int[,] matrix = new int[nr, nr];
-            int[,] matrix2 = new int[nr, nr];
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
                 for (int col = 0; col < matrix.GetLength(1); col++)
